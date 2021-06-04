@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+}
+
+
+.Grid{
+    display: grid;   
+    /* margin-top: 30px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 20px auto;
+
+}
+
+.wrap{
+    padding: 50% 0;
+    height: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+img{
+    object-fit: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;left: 0;
+}
